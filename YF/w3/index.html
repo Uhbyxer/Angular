@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app = 'auction'> 
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Hello AngularJS</title>
+   
+    
+  </head>
+
+  <body ng-controller = 'IndexController'>
+    <p>Type here: <input type="text" ng-model="model.message"/></p>
+    <p>Should appear: <strong> {{model.message | uppercase}} </strong> </p>
+    
+   <script src="js/angular.min.js"></script>  
+   <script src="js/w3.js"></script>  
+  </body>
+
+</html>
